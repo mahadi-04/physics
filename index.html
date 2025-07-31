@@ -7,27 +7,35 @@
 <link rel="shortcut icon" href="lsrei.jpg" type="image/x-icon">
 <style>
     #m{
-        text-align: center;
-    }
+        text-align: center; }
+
 
     .mm{
     
         display: flex;
-        gap: 10px;
+        gap: 10px;}
 
-    }
     .mm video{
         width: 300px;
         height: 167px;
         border: 5px solid red;
-        border-radius: 5px;
-    }
+        border-radius: 5px; }
     .as{
-        text-align: center;
-    }
+        text-align: center;  }
+
     .bv{
-        text-align: center;
+        text-align: center;  }
+
+    td,th{ border: solid 2px;
+    border-radius: 2px;
+    padding: 4px 20px 4px;
+     }
+
+    table{
+        border-collapse: collapse;
     }
+
+
 </style>
 </head>
 <body style="background-color: aqua;">
@@ -157,8 +165,13 @@ W = পার্টিকেল বিন্যাসের সম্ভাব�
 
     <label for="m">Your name</label>
     <input type="text" name="your name" id="m">
+
     <label for="m">Your Email</label>
     <input type="text" style="width: 200px;" name="Your Email" id="m">
+
+    <label for="m">phone number</label>
+    <input type="number" name="number" id="m">
+
 
 
 
@@ -237,12 +250,100 @@ W = পার্টিকেল বিন্যাসের সম্ভাব�
 
     <input c type="submit" style="padding: 7px 7px; font-size: 20px; border-radius: 10px;" value="submit">
     <input type="reset" style="padding: 7px 7px; font-size: 20px; border-radius: 10px;" value="reset">
-
-
 </form>
 
+<br>
+<br>
+
+<table>
+    <caption>MY FRIENDS COLLECTION</caption>
+    <thead>
+           <th>NO</th>
+           <th>Frist name</th>
+           <th>Last name</th>
+           <th>Code</th>
+           <th>Address</th>
+    </thead>
+
+    <tbody>
+
+     <tr>
+         <td>1</td>
+         <td>Tawhid</td> 
+         <td>hasan</td>
+         <td>01</td>
+         <td>Bagerhat</td> 
+     </tr>
+
+     <tr>
+         <td>2</td>
+         <td>Akib Hossin</td>
+         <td>Tasin</td>
+         <td>02</td>
+         <td>Borguna</td>
+     </tr>
+
+     <tr>
+        <td>3</td>
+        <td>Junayed</td>
+        <td>jamshed</td>
+        <td>03</td>
+        <td>Jalokathi</td>
+     </tr>
+
+     <tr>
+        <td>4</td>
+        <td>Mahadi hasan</td>
+        <td>sad</td>
+        <td>04</td>
+        <td>Satkhira</td>
+     </tr>
+
+     <tr>
+        <td>5</td>
+        <td>Shahi</td>
+        <td>Imran</td>
+        <td>05</td>
+        <td>Pirajpur</td>
+     </tr>
+
+     <tr>
+        <td>6</td>
+        <td>Abdullah</td>
+        <td>arafat</td>
+        <td>06</td>
+        <td>Barishal</td>
+     </tr>
+
+     <tr>
+        <td>7</td>
+        <td>Atik bin</td>
+        <td>aziz</td>
+        <td>07</td>
+        <td>Potuekhali</td>
+     </tr>
+
+     <tr>
+        <td>8</td>
+        <td>Mahadi</td>
+        <td>hasan</td>
+        <td>08</td>
+        <td>Barishal</td>
+     </tr>
+
+     
 
 
+
+    </tbody>
+
+<footer>
+    <td colspan="5">Totel Friends : 8</td>
+</footer>
+
+
+
+</table>
 
 
 
